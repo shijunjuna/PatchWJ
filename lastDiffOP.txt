@@ -1,0 +1,32 @@
+66,-1c67,-1
+classname & methodname:
+Clause
+public int wjttttttttt(int x,int y)
+<         	y = y+10;
+>         	y = y+3;
+81,-1a82,-1
+classname & methodname:
+Clause
+public int get(final int index)
+>     public int getA(final int index) {
+82,-1a83,84
+classname & methodname:
+Clause
+public int get(final int index)
+>         return variables[index];
+>     }
+103,113d113,-1
+classname & methodname:
+Clause
+public String toString()
+<     @Override
+<     public String toString() {
+<         final String delimiter = " ";
+<         final int varLen = variables.length;
+<         final StringBuilder buf = new StringBuilder();
+<         for (int curVar = 0; curVar < varLen; ++curVar) {
+<             buf.append(variables[curVar]);
+<             buf.append(delimiter);
+<         }
+<         return buf.toString();
+<     }

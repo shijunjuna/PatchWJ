@@ -1,0 +1,22 @@
+diff -r E:\WorkSpace2015_9_23_Wala_KeplerªµµÙ¡À\WJTest\Clause1.java E:\WorkSpace2015_9_23_Wala_KeplerªµµÙ¡À\WJTest\Clause3.java
+62c62
+<         	y = y+10;
+---
+>         	y = y+3;
+75a76
+>     public int getA(final int index) {
+75a78,79
+>         return variables[index];
+>     }
+94,104d98
+<     @Override
+<     public String toString() {
+<         final String delimiter = " ";
+<         final int varLen = variables.length;
+<         final StringBuilder buf = new StringBuilder();
+<         for (int curVar = 0; curVar < varLen; ++curVar) {
+<             buf.append(variables[curVar]);
+<             buf.append(delimiter);
+<         }
+<         return buf.toString();
+<     }

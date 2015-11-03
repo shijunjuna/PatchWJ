@@ -1,0 +1,22 @@
+diff -r E:\WorkSpace2015_9_23_Wala_Kepler»µµôÁË\WJTest\Clause1.java E:\WorkSpace2015_9_23_Wala_Kepler»µµôÁË\WJTest\Clause2.java
+39a40
+> 				size++;
+47,49c48
+<                 variables[i] = var;
+<                 size++;
+<                 break;
+---
+> 				z++;
+61c60,61
+<     		x = x+10;
+---
+>     		x = x+2;
+> 			m-=1;
+65c65
+<     		int n = x;
+---
+>     		int n = y;
+81,83d80
+<     public int lengthOne() {
+<         return (size == 1) ? findOne() : 0;
+<     }

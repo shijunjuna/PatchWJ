@@ -1,0 +1,33 @@
+39,-1a40,-1
+classname & methodname:
+Clause
+public void removeVar(final int var)
+> 				size++;
+48,50c51,-1
+classname & methodname:
+Clause
+public void addVar(final int var)
+<                 variables[i] = var;
+<                 size++;
+<                 break;
+> 				z++;
+63,-1c64,65
+classname & methodname:
+Clause
+public int wjttttttttt(int x,int y)
+<     		x = x+10;
+>     		x = x+2;
+> 			m-=1;
+70,-1c71,-1
+classname & methodname:
+Clause
+public int wjttttttttt(int x,int y)
+<     		int n = x;
+>     		int n = y;
+90,92d92,-1
+classname & methodname:
+Clause
+public int lengthOne()
+<     public int lengthOne() {
+<         return (size == 1) ? findOne() : 0;
+<     }
